@@ -19,3 +19,7 @@ steps:
     npm -v
     node -v
   displayName: 'npm -v and node -v'
+
+- script: |
+    node testNodeVersion.js
+  displayName: 'run testNodeVersion'
